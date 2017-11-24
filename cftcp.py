@@ -17,7 +17,6 @@ import os
 import requests
 import sys
 import time
-import webbrowser
 from bs4 import BeautifulSoup
 
 probeids = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
@@ -207,7 +206,7 @@ def clearfiles() :
 
 def submit(cid, probid, filename) :
     # Under Development
-    # webbrowser.open_new_tab('http://codeforces.com/contest/' + cid + '/submit')
+    print "Under Development"
     return
 
 def main():
